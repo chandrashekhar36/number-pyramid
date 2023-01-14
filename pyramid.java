@@ -15,7 +15,7 @@ class pyramid
       }
       for (int k=1; k<=a; k++)
       {
-        System.out.println"   "+a);
+        System.out.print("   "+a);
       }
       System.out.print();
     }
