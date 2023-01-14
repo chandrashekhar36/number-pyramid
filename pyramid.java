@@ -10,6 +10,7 @@ class pyramid
     for (int a=1; a<=n; a++)
     {
       for (int b=1; b<=(n-a)*2; b++)
+        System.out.print(" ");
       {
         System.out.print(" ");
       }
@@ -17,7 +18,7 @@ class pyramid
       {
         System.out.println("   "+a);
       }
-     
+     System.out.println();
     }
   }
 }
