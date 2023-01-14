@@ -5,7 +5,7 @@ class pyramid
   {
     Scanner scanner = new Scanner(System.in);
     int n;
-    System,out.println("enter a pyramid size");
+    System.out.println("enter a pyramid size");
     n=(int)scanne.nextInt();
     for (int a=1; a<=n; a++)
     {
@@ -13,9 +13,9 @@ class pyramid
       {
         System.out.print(" ");
       }
-      for (int k=1; k<=i; k++)
+      for (int k=1; k<=a; k++)
       {
-        System.out.print("   "+i);
+        System.out.print("   "+a);
       }
       System.out.print();
     }
